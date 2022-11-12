@@ -1,5 +1,6 @@
-# 🖐️ Test your repo
+# 🖐️ Test your repo with codespace
 
+* Click on Code then create codespace
 * Navigate to the src/Main.java file
 * Click on the "run" button
 
