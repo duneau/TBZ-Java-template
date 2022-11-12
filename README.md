@@ -9,3 +9,6 @@
 
 ![output](./resources/images/run.gif)
 
+---
+
+Credits: simplified version of the cs50 codespace repo
