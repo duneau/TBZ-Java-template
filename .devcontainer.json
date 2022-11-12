@@ -68,13 +68,10 @@
         "gitdoc.pullOnOpen": false,
         "html.suggest.html5": false,
         "java.server.launchMode": "Standard",
-        "java.configuration.runtimes": [
-            {
-                "name": "JavaSE-18",
-                "path": "/opt/jdk-18.0.2.1", /* env | grep JAVA_HOME (set in cs50/cli) */
-                "default": true
-            }
-        ],
+            
+        "ghcr.io/devcontainers/features/java:1": {
+         "version": "latest"
+        },
         "java.inlayHints.parameterNames.enabled": "none",
         "java.debug.settings.enableRunDebugCodeLens": false,
         "javascript.suggest.enabled": false,
