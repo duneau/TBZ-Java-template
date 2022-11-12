@@ -1,6 +1,9 @@
 # 🖐️ Test your repo with codespace
 
 * Click on "<> Code" then click on "+" to create codespace
+
+![codespace](./resources/images/codespace.gif)
+
 * Navigate to the src/Main.java file
 * Click on the "run" button
 
