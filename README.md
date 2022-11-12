@@ -1,6 +1,6 @@
 # 🖐️ Test your repo with codespace
 
-* Click on Code then create codespace
+* Click on "<> Code" then click on "+" to create codespace
 * Navigate to the src/Main.java file
 * Click on the "run" button
 
