@@ -4,7 +4,7 @@
         "/opt/cs50/extensions/phpliteadmin-0.0.1.vsix",
         "cs50.ddb50",
         "cs50.extension-uninstaller",
-      
+        "cs50.lab50",
         "cs50.markdown50",
         "cs50.vscode-presentation-mode",
         "ms-python.python",
