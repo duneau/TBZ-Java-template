@@ -9,6 +9,7 @@ This is your student repository.
 * Navigating to the src/Main.java file
 * Click on the "run" button
 
+![validate](./resources/images/validate.gif)
 
 
 
