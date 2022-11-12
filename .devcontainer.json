@@ -1,18 +1,33 @@
 {
     "extensions": [
-      
+        "/opt/cs50/extensions/cs50-0.0.1.vsix",
+        "/opt/cs50/extensions/phpliteadmin-0.0.1.vsix",
+        "cs50.ddb50",
+        "cs50.extension-uninstaller",
+        "cs50.lab50",
+        "cs50.markdown50",
+        "cs50.vscode-presentation-mode",
         "ms-python.python",
+        "ms-vscode.cpptools",
         "ms-vscode.hexeditor",
         "ms-vsliveshare.vsliveshare-pack",
         "redhat.java",
+        "tomoki1207.pdf",
         "vscjava.vscode-java-debug",
         "vsls-contrib.gitdoc"
     ],
     "forwardPorts": [5000, 8080],
-  
+    "image": "ghcr.io/cs50/codespace",
+    "postCreateCommand": "/opt/cs50/bin/postCreateCommand",
     "settings": {
         "breadcrumbs.enabled": false,
-     
+        "C_Cpp.autocomplete": "Disabled",
+        "C_Cpp.codeFolding": "Disabled",
+        "C_Cpp.debugShortcut": false,
+        "C_Cpp.dimInactiveRegions": false,
+        "C_Cpp.doxygen.generateOnType": false,
+        "C_Cpp.enhancedColorization": "Enabled",
+        "C_Cpp.errorSquiggles": "Disabled",
         "editor.autoClosingQuotes": "never",
         "editor.colorDecorators": false,
         "editor.emptySelectionClipboard": false,
@@ -47,6 +62,12 @@
         "editor.suggestOnTriggerCharacters": false,
         "extensions.ignoreRecommendations": true,
         "explorer.compactFolders": false,
+        "extension-uninstaller.uninstall": [
+            "github.copilot",
+            "github.copilot-nightly",
+            "ms-toolsai.jupyter",
+            "tabnine.tabnine-vscode"
+        ],
         "files.autoSave": "afterDelay",
         "files.exclude": {
             "**/.*": true
@@ -68,7 +89,6 @@
         "gitdoc.pullOnOpen": false,
         "html.suggest.html5": false,
         "java.server.launchMode": "Standard",
-            
         "java.configuration.runtimes": [
             {
                 "name": "JavaSE-18",
@@ -137,7 +157,10 @@
             }
         },
         "window.commandCenter": false,
-       
+        "workbench.editorAssociations": {
+            "*.wav": "vscode.audioPreview"
+         
+        },
         "workbench.editor.closeOnFileDelete": true,
         "workbench.editor.enablePreview": false,
         "workbench.editor.untitled.hint": "hidden",
