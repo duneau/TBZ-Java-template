@@ -7,5 +7,5 @@
 
 👍 You should get a pop up window indicating that the java program is being compiled, then your program will execute in the TERMINAL tab as shown below:
 
-![output](./resources/images/output.png)
+![output](./resources/images/run.gif)
 
